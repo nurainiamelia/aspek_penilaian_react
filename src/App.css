@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: auto repeat(10, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.dropdown {
+  width: 100%;
+}
